@@ -68,7 +68,7 @@ function App() {
           {console.log(cartState)}
         {cartState.items.map((obj) => (
 
-        <div>{(obj.itemcount + 1)/ 2} x {obj.name}</div>))}  
+        <div>{(obj.itemcount + 1)} x {obj.name}</div>))}  
         </div>
         <h3>Total Price: {cartState.totalPrice}</h3>
       </div>
