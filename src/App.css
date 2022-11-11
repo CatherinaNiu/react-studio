@@ -1,9 +1,23 @@
 /* Add styling for your page here */
 
 .App {
+    width: 100%;
+    background-color:rgb(208, 244, 232);
 
 }
 
-.BakeryItem {
-  
+.singleBakeryItem {
+    width: 30%;
+    background-color:aliceblue;
+    margin-bottom: 2vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

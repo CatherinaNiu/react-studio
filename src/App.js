@@ -18,10 +18,10 @@ function App() {
   return (
     <div className="App">
       <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
-      
+      <div id="items">
       {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
         //<p>{item.name}</p>
-        <div>
+        <div class="singleBakeryItem">
           {singleBakeryItem(item)}
           <button onClick={() =>
           {
@@ -59,6 +59,7 @@ function App() {
           </button>
         </div>
       ))}
+      </div>
       
       <div>
         <h2>Cart</h2>
