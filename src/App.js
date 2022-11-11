@@ -70,7 +70,7 @@ function App() {
 
         <div>{obj.itemcount} x {obj.name}</div>))}  
         </div>
-        <h3>Total Price: {cartState.totalPrice}</h3>
+        <h3>Total Price: {cartState.totalPrice.toFixed(2)}</h3>
       </div>
     </div>
   );
